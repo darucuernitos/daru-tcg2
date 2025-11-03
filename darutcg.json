@@ -29,7 +29,7 @@
           "value": 1
         }
       },
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru darki lider.png"
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru%20darki%20lider.png"
     }
   ],
   "cards": [
@@ -40,7 +40,7 @@
       "hp": 2,
       "category": "perso",
       "type": "est / aity",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru darki.png",
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru%20darki.png",
       "description": "Carta de prueba para testeo básico del sistema."
     }
   ],
@@ -53,4 +53,5 @@
     }
   ]
 }
+
 
