@@ -15,13 +15,13 @@
   "cards": [
     {
       "id": 100,
-      "name": "Daru & Darki – Líder",
+      "name": "Daru & Darki (Líder)",
       "attack": 0,
       "hp": 20,
       "category": "leader",
       "type": "aity",
-      "image": "https://media.discordapp.net/…/daru_darki_lider.png",
-      "description": "Habilidad: Al inicio de tu turno todas tus cartas tipo aity +1 vida."
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru%20darki%20lider.png",
+      "description": "Habilidad: al inicio de tu turno, todas tus cartas de tipo 'aity' ganan +1 punto de vida."
     },
     {
       "id": 1,
@@ -30,8 +30,8 @@
       "hp": 2,
       "category": "perso",
       "type": "aity",
-      "image": "https://media.discordapp.net/…/daru_darki.png",
-      "description": "Carta de prueba."
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru%20darki.png",
+      "description": "Carta de prueba para testeo básico del sistema."
     }
   ],
   "decks": [
@@ -39,7 +39,7 @@
       "id": 1,
       "name": "Test Deck Daru",
       "leader": 100,
-      "cards": [1,1,1,1,1,1]
+      "cards": [1, 1, 1, 1, 1, 1]
     }
   ]
 }
