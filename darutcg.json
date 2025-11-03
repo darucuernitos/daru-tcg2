@@ -12,25 +12,35 @@
       "persistent_hp": true
     }
   },
-  "cards": [
+  "leaders": [
     {
       "id": 100,
-      "name": "Daru & Darki (Líder)",
-      "attack": 0,
+      "name": "Daru & Darki",
+      "category": "lider",
       "hp": 20,
-      "category": "leader",
-      "type": "aity",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru%20darki%20lider.png",
-      "description": "Habilidad: al inicio de tu turno, todas tus cartas de tipo 'aity' ganan +1 punto de vida."
-    },
+      "ability": {
+        "name": "Bendición Aity",
+        "description": "Al inicio de tu turno, todas tus cartas de tipo 'aity' ganan +1 punto de vida.",
+        "trigger": "start_of_turn",
+        "effect": {
+          "target": "own_field",
+          "filter": { "type": "aity" },
+          "action": "add_hp",
+          "value": 1
+        }
+      },
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png"
+    }
+  ],
+  "cards": [
     {
       "id": 1,
       "name": "Daru & Darki",
       "attack": 6,
       "hp": 2,
       "category": "perso",
-      "type": "aity",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru%20darki.png",
+      "type": "est / aity",
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki.png",
       "description": "Carta de prueba para testeo básico del sistema."
     }
   ],
