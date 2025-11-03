@@ -12,36 +12,26 @@
       "persistent_hp": true
     }
   },
-  "leaders": [
+  "cards": [
     {
       "id": 100,
-      "name": "Daru & Darki",
-      "category": "lider",
+      "name": "Daru & Darki – Líder",
+      "attack": 0,
       "hp": 20,
-      "ability": {
-        "name": "Bendición Aity",
-        "description": "Al inicio de tu turno, todas tus cartas de tipo 'aity' ganan +1 punto de vida.",
-        "trigger": "start_of_turn",
-        "effect": {
-          "target": "own_field",
-          "filter": { "type": "aity" },
-          "action": "add_hp",
-          "value": 1
-        }
-      },
-      "image": "https://media.discordapp.net/attachments/1430347880899809330/1430347964274049134/daru_darki_lider.png?ex=690944d9&is=6907f359&hm=03aea2a93a28425cec88f6d0e1176210b55d7d04761d954fcb5532262ad94822&=&format=webp&quality=lossless&width=508&height=709"
-    }
-  ],
-  "cards": [
+      "category": "leader",
+      "type": "aity",
+      "image": "https://media.discordapp.net/…/daru_darki_lider.png",
+      "description": "Habilidad: Al inicio de tu turno todas tus cartas tipo aity +1 vida."
+    },
     {
       "id": 1,
       "name": "Daru & Darki",
       "attack": 6,
       "hp": 2,
       "category": "perso",
-      "type": "est / aity",
-      "image": "https://media.discordapp.net/attachments/1430347880899809330/1432164056579575948/daru_darki.png?ex=690948b7&is=6907f737&hm=70e8f9d00f0c6046aeaadb6d59c0d1a36592687d7a50dbbe3c391e0392ecfb14&=&format=webp&quality=lossless&width=441&height=616",
-      "description": "Carta de prueba para testeo básico del sistema."
+      "type": "aity",
+      "image": "https://media.discordapp.net/…/daru_darki.png",
+      "description": "Carta de prueba."
     }
   ],
   "decks": [
@@ -49,7 +39,7 @@
       "id": 1,
       "name": "Test Deck Daru",
       "leader": 100,
-      "cards": [1, 1, 1, 1, 1, 1]
+      "cards": [1,1,1,1,1,1]
     }
   ]
 }
