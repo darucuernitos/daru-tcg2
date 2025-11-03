@@ -44,6 +44,14 @@
         "image": "https://media.discordapp.net/attachments/1430347880899809330/1432164056579575948/daru_darki.png?ex=690948b7&is=6907f737&hm=70e8f9d00f0c6046aeaadb6d59c0d1a36592687d7a50dbbe3c391e0392ecfb14&=&format=webp&quality=lossless&width=441&height=616",
         "description": "Carta de prueba para testeo básico del sistema."
       }
+    ],
+    "decks": [
+      {
+        "id": 1,
+        "name": "Test Deck Daru",
+        "leader": 100,
+        "cards": [1, 1, 1, 1, 1, 1]
+      }
     ]
   }
 }
