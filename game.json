@@ -1,0 +1,13 @@
+{
+  "name": "DaruTCG Test Mini",
+  "version": "0.1",
+  "leader_hp": 20,
+  "lanes": 5,
+  "max_play_per_turn": 1,
+  "rules": {
+    "draw_per_turn": 1,
+    "attack_simultaneous": true,
+    "direct_attack_if_empty": true,
+    "persistent_hp": true
+  }
+}

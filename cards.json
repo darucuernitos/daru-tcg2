@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Daru & Darki",
+      "attack": 6,
+      "hp": 2,
+      "category": "perso",
+      "type": "est / aity",
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png",
+      "description": "Carta de prueba para testeo básico del sistema."
+    }
+  ],
+  "decks": [
+    {
+      "id": 1,
+      "name": "Test Deck Daru",
+      "leader": 100,
+      "cards": [1, 1, 1, 1, 1, 1]
+    }
+  ]
+}

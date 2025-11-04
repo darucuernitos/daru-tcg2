@@ -1,0 +1,7 @@
+{
+  "set": {
+    "game": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/game.json",
+    "leaders": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/leaders.json",
+    "cards": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/cards.json"
+  }
+}
