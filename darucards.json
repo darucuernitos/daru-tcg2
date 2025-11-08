@@ -1,0 +1,52 @@
+{
+  "100": {
+    "id": 100,
+    "name": "Daru & Darki (Líder)",
+    "type": "Líder",
+    "hp": 20,
+    "attack": 0,
+    "category": "lider",
+    "description": "Líder principal del mazo de prueba. Inspira a las cartas 'aity' y las refuerza.",
+    "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki_lider.png"
+  },
+  "1": {
+    "id": 1,
+    "name": "Daru & Darki",
+    "type": "aity",
+    "attack": 6,
+    "hp": 2,
+    "category": "perso",
+    "description": "Carta de prueba básica para testeo del sistema.",
+    "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
+  },
+  "2": {
+    "id": 2,
+    "name": "Daru - Forma Magma",
+    "type": "aity",
+    "attack": 8,
+    "hp": 3,
+    "category": "perso",
+    "description": "Daru desata su energía ígnea interior para dominar el campo.",
+    "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
+  },
+  "3": {
+    "id": 3,
+    "name": "Darki - Espectro del Caos",
+    "type": "aity",
+    "attack": 7,
+    "hp": 4,
+    "category": "perso",
+    "description": "Darki se transforma en un ser etéreo capaz de absorber ataques enemigos.",
+    "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
+  },
+  "4": {
+    "id": 4,
+    "name": "Fusión DaruDarki",
+    "type": "fusión",
+    "attack": 10,
+    "hp": 5,
+    "category": "especial",
+    "description": "Cuando Daru y Darki unen sus fuerzas, se convierten en una sola entidad imparable.",
+    "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
+  }
+}
