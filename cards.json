@@ -2,34 +2,24 @@
   "cards": [
     {
       "id": 100,
-      "name": "Daru & Darki",
-      "attack": 0,
+      "name": "Daru & Darki (Líder)",
+      "type": "Líder",
       "hp": 20,
-      "category": "lider",
-      "type": "especial",
+      "description": "Líder principal del mazo de prueba.",
       "ability": {
         "name": "Bendición Aity",
-        "description": "Al inicio de tu turno, todas tus cartas de tipo 'aity' ganan +1 punto de vida.",
-        "trigger": "start_of_turn",
-        "effect": {
-          "target": "own_field",
-          "filter": { "type": "aity" },
-          "action": "add_hp",
-          "value": 1
-        }
+        "description": "Al inicio de tu turno, todas tus cartas tipo 'aity' ganan +1 punto de vida."
       },
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki_lider.png",
-      "description": "Líder del equipo. Inspira y fortalece a las unidades Aity."
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png"
     },
     {
       "id": 1,
       "name": "Daru & Darki",
+      "type": "aity",
       "attack": 6,
       "hp": 2,
-      "category": "perso",
-      "type": "est / aity",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png",
-      "description": "Carta de prueba para testeo básico del sistema."
+      "description": "Carta de prueba básica para testeo del sistema.",
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki.png"
     }
   ]
 }
