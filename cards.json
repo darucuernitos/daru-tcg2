@@ -1,27 +1,35 @@
 {
-  "cards": [
-    {
-      "id": 100,
-      "name": "Daru & Darki (Líder)",
-      "type": "Líder",
-      "hp": 20,
-      "description": "Líder principal del mazo de prueba.",
-      "ability": {
-        "name": "Bendición Aity",
-        "description": "Al inicio de tu turno, todas tus cartas tipo 'aity' ganan +1 punto de vida."
-      },
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki_lider.png"
+  "100": {
+    "id": "100",
+    "face": {
+      "front": {
+        "name": "Daru & Darki (Líder)",
+        "type": "Líder",
+        "hp": 20,
+        "attack": 0,
+        "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki_lider.png",
+        "isHorizontal": false
+      }
     },
-    {
-      "id": 1,
-      "name": "Daru & Darki",
-      "type": "aity",
-      "attack": 6,
-      "hp": 2,
-      "description": "Carta de prueba básica para testeo del sistema.",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
-    }
-  ]
+    "name": "Daru & Darki (Líder)",
+    "type": "Líder",
+    "category": "lider"
+  },
+  "1": {
+    "id": "1",
+    "face": {
+      "front": {
+        "name": "Daru & Darki",
+        "type": "Personaje",
+        "attack": 6,
+        "hp": 2,
+        "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Daru & Darki",
+    "type": "Personaje",
+    "category": "perso",
+    "description": "Carta de prueba básica para testeo del sistema."
+  }
 }
-
-
