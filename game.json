@@ -1,8 +1,8 @@
 {
   "name": "DaruTCG",
-  "menuBackgroundImage": "https://i.ibb.co/zVvkhS96/F3x-Rtyu-Xo-AAGE17.webp",
+  "menuBackgroundImage": "https://i.imgur.com/Zvus1Xx.jpeg",
   "deckBuilding": {
-    "mainFilters": ["type", "category", "cost"],
+    "mainFilters": ["type", "category"],
     "formats": [
       {
         "title": "Classic",
@@ -13,7 +13,6 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Puedes devolver cualquier número de cartas a tu mazo y robar la misma cantidad.",
         "startingHandSize": 5,
         "drawNewSelectedCards": true
       },
@@ -21,61 +20,11 @@
         "drawOnStart": true,
         "sharedTurn": false
       },
-      "countersStartingValues": [0],
-      "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Campo", "Reserva", "Cementerio"],
-        "layout": {
-          "direction": "column",
-          "content": [
-            { "section": "Campo" },
-            {
-              "direction": "row",
-              "content": [
-                { "section": "Reserva" },
-                { "section": "Cementerio" }
-              ]
-            }
-          ]
-        },
-        "autoPlayFromHand": {
-          "Carta": "Campo"
-        },
-        "sectionsDict": {
-          "Campo": {
-            "title": "Campo",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "isHorizontalAllowed": true
-          },
-          "Reserva": {
-            "title": "Reserva",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "isHorizontalAllowed": true
-          },
-          "Cementerio": {
-            "title": "Cementerio",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "END",
-            "isHorizontalAllowed": true
-          }
-        }
+        "customSections": ["Campo", "Reserva", "Cementerio"]
       }
     }
   },
-  "defaultRessources": {
-    "backgrounds": [
-      "https://i.ibb.co/zVvkhS96/F3x-Rtyu-Xo-AAGE17.webp",
-      "https://i.imgur.com/Zvus1Xx.jpeg",
-      "https://i.imgur.com/14kebj5.jpeg"
-    ],
-    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darudecks.json"
-  },
-  "customHelp": "Arrastra tus cartas al campo para jugarlas.",
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darucards.json",
     "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
