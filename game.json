@@ -1,13 +1,60 @@
 {
   "name": "DaruTCG Test Mini",
-  "version": "0.1",
-  "leader_hp": 20,
-  "lanes": 5,
-  "max_play_per_turn": 1,
-  "rules": {
-    "draw_per_turn": 1,
-    "attack_simultaneous": true,
-    "direct_attack_if_empty": true,
-    "persistent_hp": true
+  "menuBackgroundImage": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/menu_bg.png",
+  "deckBuilding": {
+    "mainFilters": ["category", "type"],
+    "formats": [
+      {
+        "title": "Clásico",
+        "gameplay": "Classic"
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Ambos jugadores roban 5 cartas y pueden cambiar las que deseen una vez.",
+        "startingHandSize": 5,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false
+      },
+      "sections": {
+        "customSections": ["Leader", "Lanes"],
+        "layout": {
+          "direction": "column",
+          "content": [
+            { "section": "Leader" },
+            { "section": "Lanes" }
+          ]
+        },
+        "sectionsDict": {
+          "Leader": {
+            "title": "Líder",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": false
+          },
+          "Lanes": {
+            "title": "Campo de Batalla",
+            "height": "LARGE",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true
+          }
+        }
+      }
+    }
+  },
+  "defaultRessources": {
+    "backgrounds": [
+      "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/menu_bg.png"
+    ],
+    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darutcg_decks.json"
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darutcg_cards.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/cardback.png"
   }
 }
