@@ -48,6 +48,7 @@
   "customHelp": "Coloca tus cartas en el campo y enfrenta al líder enemigo. Si el campo del oponente está vacío, haces daño directo.",
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/cards.json",
-    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki.png"
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
   }
 }
+
