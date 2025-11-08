@@ -1,16 +1,19 @@
 {
   "name": "DaruTCG",
-  "menuBackgroundImage": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png",
+  "menuBackgroundImage": "https://i.ibb.co/zVvkhS96/F3x-Rtyu-Xo-AAGE17.webp",
   "deckBuilding": {
-    "mainFilters": ["type"],
+    "mainFilters": ["type", "category", "cost"],
     "formats": [
-      { "title": "DaruClassic", "gameplay": "DaruClassic" }
+      {
+        "title": "Classic",
+        "gameplay": "Classic"
+      }
     ]
   },
   "gameplay": {
-    "DaruClassic": {
+    "Classic": {
       "mulligan": {
-        "info": "Ambos jugadores roban 5 cartas. Pueden cambiar una antes de empezar.",
+        "info": "Puedes devolver cualquier número de cartas a tu mazo y robar la misma cantidad de nuevas cartas.",
         "startingHandSize": 5,
         "drawNewSelectedCards": true
       },
@@ -18,37 +21,59 @@
         "drawOnStart": true,
         "sharedTurn": false
       },
-      "countersStartingValues": [20],
+      "countersStartingValues": [0],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Campo", "Cementerio"],
+        "customSections": ["Campo", "Reserva", "Cementerio"],
         "layout": {
           "direction": "column",
           "content": [
             { "section": "Campo" },
-            { "section": "Cementerio" }
+            {
+              "direction": "row",
+              "content": [
+                { "section": "Reserva" },
+                { "section": "Cementerio" }
+              ]
+            }
           ]
         },
         "autoPlayFromHand": {
           "Carta": "Campo"
         },
         "sectionsDict": {
-          "Campo": { "title": "Campo", "alignment": "CENTER", "height": "MEDIUM" },
-          "Cementerio": { "title": "Cementerio", "alignment": "START", "height": "SMALL" }
+          "Campo": {
+            "title": "Campo",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true
+          },
+          "Reserva": {
+            "title": "Reserva",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "isHorizontalAllowed": true
+          },
+          "Cementerio": {
+            "title": "Cementerio",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "END",
+            "isHorizontalAllowed": true
+          }
         }
       }
     }
   },
   "defaultRessources": {
     "backgrounds": [
-      "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png"
-    ],
-    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/decks.json"
+      "https://i.ibb.co/zVvkhS96/F3x-Rtyu-Xo-AAGE17.webp",
+      "https://i.imgur.com/Zvus1Xx.jpeg",
+      "https://i.imgur.com/14kebj5.jpeg"
+    ]
   },
-  "customHelp": "Coloca tus cartas en el campo y enfrenta al líder enemigo. Si el campo del oponente está vacío, haces daño directo.",
+  "customHelp": "Arrastra tus cartas desde la mano hasta el Campo para jugarlas.",
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/cards.json",
-    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
-  }
-}
-
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png",
