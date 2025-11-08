@@ -1,0 +1,10 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Test Deck Daru",
+      "leader": 100,
+      "cards": [1, 1, 1, 1, 1]
+    }
+  ]
+}
