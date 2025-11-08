@@ -38,9 +38,7 @@
             }
           ]
         },
-        "autoPlayFromHand": {
-          "Carta": "Campo"
-        },
+        "autoPlayFromHand": {},
         "sectionsDict": {
           "Campo": {
             "title": "Campo",
