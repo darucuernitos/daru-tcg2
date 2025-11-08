@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Deck Test Daru",
+    "cards": [100, 1, 1, 2, 3, 4]
+  },
+  {
+    "id": 2,
+    "name": "Fusión Caótica",
+    "cards": [100, 2, 2, 3, 3, 4, 4]
+  }
+]
