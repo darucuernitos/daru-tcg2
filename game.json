@@ -1,19 +1,16 @@
 {
-  "name": "DaruTCG Test Mini",
-  "menuBackgroundImage": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/menu_bg.png",
+  "name": "DaruTCG",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png",
   "deckBuilding": {
-    "mainFilters": ["category", "type"],
+    "mainFilters": ["type"],
     "formats": [
-      {
-        "title": "Clásico",
-        "gameplay": "Classic"
-      }
+      { "title": "DaruClassic", "gameplay": "DaruClassic" }
     ]
   },
   "gameplay": {
-    "Classic": {
+    "DaruClassic": {
       "mulligan": {
-        "info": "Ambos jugadores roban 5 cartas y pueden cambiar las que deseen una vez.",
+        "info": "Ambos jugadores roban 5 cartas. Pueden cambiar una antes de empezar.",
         "startingHandSize": 5,
         "drawNewSelectedCards": true
       },
@@ -21,40 +18,36 @@
         "drawOnStart": true,
         "sharedTurn": false
       },
+      "countersStartingValues": [20],
+      "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Leader", "Lanes"],
+        "customSections": ["Campo", "Cementerio"],
         "layout": {
           "direction": "column",
           "content": [
-            { "section": "Leader" },
-            { "section": "Lanes" }
+            { "section": "Campo" },
+            { "section": "Cementerio" }
           ]
         },
+        "autoPlayFromHand": {
+          "Carta": "Campo"
+        },
         "sectionsDict": {
-          "Leader": {
-            "title": "Líder",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "isHorizontalAllowed": false
-          },
-          "Lanes": {
-            "title": "Campo de Batalla",
-            "height": "LARGE",
-            "alignment": "CENTER",
-            "isHorizontalAllowed": true
-          }
+          "Campo": { "title": "Campo", "alignment": "CENTER", "height": "MEDIUM" },
+          "Cementerio": { "title": "Cementerio", "alignment": "START", "height": "SMALL" }
         }
       }
     }
   },
   "defaultRessources": {
     "backgrounds": [
-      "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/menu_bg.png"
+      "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki_lider.png"
     ],
-    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darutcg_decks.json"
+    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/decks.json"
   },
+  "customHelp": "Coloca tus cartas en el campo y enfrenta al líder enemigo. Si el campo del oponente está vacío, haces daño directo.",
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darutcg_cards.json",
-    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/cardback.png"
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/img/daru_darki.png"
   }
 }
