@@ -13,7 +13,7 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Puedes devolver cualquier número de cartas a tu mazo y robar la misma cantidad de nuevas cartas.",
+        "info": "Puedes devolver cualquier número de cartas a tu mazo y robar la misma cantidad.",
         "startingHandSize": 5,
         "drawNewSelectedCards": true
       },
@@ -72,8 +72,12 @@
       "https://i.ibb.co/zVvkhS96/F3x-Rtyu-Xo-AAGE17.webp",
       "https://i.imgur.com/Zvus1Xx.jpeg",
       "https://i.imgur.com/14kebj5.jpeg"
-    ]
+    ],
+    "decksUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darudecks.json"
   },
-  "customHelp": "Arrastra tus cartas desde la mano hasta el Campo para jugarlas.",
+  "customHelp": "Arrastra tus cartas al campo para jugarlas.",
   "cards": {
-    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png",
+    "dataUrl": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/darucards.json",
+    "cardBack": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
+  }
+}
