@@ -10,7 +10,7 @@
         "name": "Bendición Aity",
         "description": "Al inicio de tu turno, todas tus cartas tipo 'aity' ganan +1 punto de vida."
       },
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/imges/daru_darki_lider.png"
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki_lider.png"
     },
     {
       "id": 1,
@@ -19,8 +19,9 @@
       "attack": 6,
       "hp": 2,
       "description": "Carta de prueba básica para testeo del sistema.",
-      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/imges/daru_darki.png"
+      "image": "https://raw.githubusercontent.com/darucuernitos/daru-tcg2/main/images/daru_darki.png"
     }
   ]
 }
+
 
